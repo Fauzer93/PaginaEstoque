@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Link de cadastro */
+a[href="/produto/novo"] {
+    display: inline-block;
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover no link de cadastro */
+a[href="/produto/novo"]:hover {
+    background-color: #5cb85c;
+}
+
+/* Estilo da lista de produtos */
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nome do produto */
+li span {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Links de ação (editar e excluir) */
+li a {
+    text-decoration: none;
+    color: #3498db;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #2980b9;
+}
+
+/* Melhorar a exibição dos botões de edição e exclusão */
+li .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+li a.editar {
+    background-color: #27ae60;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+li a.excluir {
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+li a.editar:hover {
+    background-color: #2ecc71;
+}
+
+li a.excluir:hover {
+    background-color: #c0392b;
+}
+
